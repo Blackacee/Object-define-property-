@@ -1,2 +1,5 @@
 # Object-define-property-
-Helps in defining a property in an existing object
+
+var obj = { };
+Object.defineProperty(obj, 'foo', { value: 'foo' });
+console.log(obj.foo);
